@@ -112,7 +112,7 @@ jobs:
 
           # 编译UEFI固件:
           # cat >> .config <<EOF
-          # CONFIG_EFI_IMAGES=y
+          CONFIG_EFI_IMAGES=y
           # EOF
 
           # IPv6支持:
@@ -145,7 +145,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-aria2=y
           CONFIG_PACKAGE_luci-app-baidupcs-web=y
-          CONFIG_PACKAGE_luci-app-docker=y
+          # CONFIG_PACKAGE_luci-app-docker=y
           CONFIG_PACKAGE_luci-app-frpc=y
           CONFIG_PACKAGE_luci-app-kodexplorer=y
           CONFIG_PACKAGE_luci-app-minidlna=y
